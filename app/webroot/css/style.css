@@ -1,0 +1,214 @@
+/* 
+    Document   : style
+    Created on : 31 oct. 2010, 00:42:09
+    Author     : ouardisoft
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #999;
+}
+
+#header{
+    border-bottom: 1px solid #666;
+}
+
+#content{
+    width: 74%;
+    float: left;
+}
+
+#left{
+    width: 24%;
+    float: right;
+    border-left: 1px solid #666;
+}
+
+.clear{
+    clear: both;
+}
+
+ul.leftMenu{
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+
+ul.leftMenu li{
+    margin-left: 10px;
+    border-bottom: 1px dotted #444444;
+}
+
+ul.leftMenu li a{
+    text-decoration: none;
+    display: block;
+}
+
+
+ul.leftMenu li:HOVER{
+    background-color: #e5ecf9;
+}
+
+ul.leftMenu li.titleMenu{
+    font-weight: bold;
+    margin: 0px;
+    background-color: #c3d9ff;
+    border: none;
+}
+
+div.blockArticles{
+/*    border: 1px solid #999;*/
+    margin: 5px 0px 5px 10px;
+    padding: 5px;
+}
+
+div.blockTitres{
+    border-bottom: 1px solid #e5ecf9;
+    background-color: #f5fcf9;
+}
+
+div.blockCommentairesArticles{
+    float: left;
+    width: 33%;
+}
+
+div.blockUserArticles{
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+div.blockDateArticles{
+    text-align: right;
+    float: right;
+    width: 33%;
+}
+
+div.blockInfoArticles{
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.paginationControl{
+    width: 500px;
+    padding: 0px;
+    margin: 0px 0px 0px 15px;
+    float:left;
+    list-style: none;
+}
+
+.paginationControl li{
+	background-color: #f5fcf9;
+        text-align: center;
+	float: left;
+        font-size: x-small;
+	width: 30px;
+	margin: 0px 5px 0px 5px;
+	border: 1px solid #999;
+}
+
+.paginationControl .current{
+    background-color: #c3d9ff;
+}
+
+.paginationControl .disabled{
+    display: none;
+}
+
+.paginationControl .numPageSelectedAuto{
+    width: auto;
+    background-color: #c3d9ff;
+}
+
+.paginationControl a{
+        display: block;
+	text-decoration: none;
+}
+.paginationControl a:HOVER{
+    background-color: #c3d9ff;
+}
+
+.commentaire{
+    background-color: #C3D9FF;
+    display: none;
+}
+
+#FormcIndexForm div label{
+    width: 200px;
+    float: left;
+}
+
+#FormcIndexForm div.error-message{
+    color: red;
+    margin-left: 200px;
+}
+
+#FormcIndexForm div.submit{
+    margin-left: 200px;
+}
+
+#container td.paire{
+    background-color: #e3e7e0;
+}
+
+#container th.paire{
+    width: 25%;
+    background-color: #C8CFC2;
+}
+
+#container td.impaire{
+    background-color:  #E0E0E7;
+}
+
+.tdright{
+    text-align: right;
+}
+
+#container th.impaire{
+    width: 25%;
+    background-color:  #C2C2CF;
+}
+
+#msg{
+    color: seagreen;
+    font-weight: bold;
+    display: none;
+}
+
+ul.listeComment{
+    list-style: none;
+}
+
+ul.listeComment li{
+    padding: 4px 0px 4px 0px;
+    border-bottom: 1px dashed #f5fcf9;
+}
+
+.success{
+    border: 1px solid #4ca83d;
+    background-color: #85e573;
+    padding: 5px;
+    color: #2d6324;
+    font-weight: bold;
+}
+
+.commentContent{
+    width: 90%;
+    float: left;
+}
+
+.commentDel{
+    width:  10%;
+    float: right;
+    text-align: right;
+    font-size: xx-small;
+}
